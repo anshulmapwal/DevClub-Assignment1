@@ -1,0 +1,49 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+#mainblock{
+    background-color: rgb(230, 202, 230);
+}
+/*navigation bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+   
+}
+/*logo and image*/
+#logo{
+    margin: 10px 14px; 
+}
+#logo img{
+    height: 26px;
+    margin: 10px 14px;
+}
+#navbar ul{
+    display: flex;
+}
+#item{
+    font-size: 30px;
+}
+#navbar ul li{
+    color: black;
+    list-style:none;
+    font-size: 1.0rem; 
+}
+#navbar ul li a{
+    display: block;
+    padding:3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#text1{
+    font-size: 50px;
+    text-align: unset;
+    font-family: ;
+}
+#text2{
+    font-size: 100px;
+    text-align: unset;
+    font-family: ;
+}
