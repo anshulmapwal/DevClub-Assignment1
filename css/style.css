@@ -87,31 +87,3 @@ a {
 .table td,th{
   background-color: white ;
 }
-#faq{
-  text-align: center;
-  font-size: 5rem;
-  font-weight: bolder;
-}
-#faqmain{
-  display: flex;
-  flex-direction: column;
-}
-.faqcontent{
-  display :flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 2rem;
-  margin: 3rem 4rem 3rem 4rem;
-  border: 2px solid #442b2d;
-  border-radius:2rem;
-}
-.faqcontent p {
-  font-size: 1.2rem;
-}
-.faqcontent h2{
-  font-size: 2.2rem;
-}
-#faqcontentmid{
-  margin-top: 0;
-  margin-bottom: 0;
-}
