@@ -66,12 +66,13 @@ a {
   height: 30vh;
 }
 .sym{
+  padding: 30px;
   text-align: center;
-  font-size: 20px;
+  font-size: 35px;
   background-color: rgb(247, 152, 203);
 }
 .sym h2{
-  padding: 20px;
+  padding: 10px;
 }
 .table h2{
   font-size: 20px;
@@ -86,4 +87,40 @@ a {
 }
 .table td,th{
   background-color: white ;
+}
+.faq{
+  text-align: center;
+  font-size: 35px;
+}
+.faque{
+  display: flex
+  flex-direction: column;
+  padding: 80px;
+  border:2px solid rgb(0, 0, 0);
+}
+.que{
+  text-align: center;
+  padding: 2px;
+  width: 80vw;
+  margin: 2px;
+  background-color: #ffffff;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+
+}
+.youtube{
+  text-align: center;
+  width: 100%;
+  padding: 8px;
+  align-items: center;
+  color: black;
+}
+.finish{
+  background-color: rgb(71, 17, 52);
+  align-items: center ;
+}
+.finish h1{
+  color: white;
+  text-align: center;
+  font-family:cursive;
 }
