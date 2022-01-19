@@ -1,4 +1,4 @@
-#home {
+.home {
   background-repeat: none;
   background-size: contain;
   display: flex;
@@ -38,7 +38,7 @@ a {
 .Heading2>img{
     margin-right: 20vw;
 }
-#tips {
+.tips {
   text-align: center;
   font-size: 30px;
   font-weight: 700;
@@ -55,7 +55,7 @@ a {
   font-size: 20px;
   text-align: right;
 }
-#sym{
+.sym{
   text-align: center;
   font-size: 20px;
   font-weight: 700;
@@ -65,7 +65,7 @@ a {
   padding: 20px;
 }
 .table,th,td{
-  border: 2px solid #6e0a39;
+  border: 5px solid #6e0a39;
   margin-inline: auto;
   font-size: 20px;
   width: 50%;
