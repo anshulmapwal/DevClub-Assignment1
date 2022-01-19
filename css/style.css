@@ -1,49 +1,75 @@
-/*css reset*/
-*{
-    margin: 0;
-    padding: 0;
+#home {
+  background-repeat: none;
+  background-size: contain;
+  display: flex;
+  background-color: rgb(71, 17, 52);
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 2vw;
 }
-#mainblock{
-    background-color: rgb(230, 202, 230);
+.Nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
-/*navigation bar*/
-#navbar{
-    display: flex;
-    align-items: center;
-   
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 7vw;
+  font-size: 20px;
 }
-/*logo and image*/
-#logo{
-    margin: 10px 14px; 
+.Heading1 {
+  font-size: 50px;
+  max-width: 55vw;
+  color: rgb(250, 234, 234);
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
 }
-#logo img{
-    height: 26px;
-    margin: 10px 14px;
+.Heading2 {
+  font-size: 60px;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-#navbar ul{
-    display: flex;
+.Heading2>img{
+    margin-right: 20vw;
 }
-#item{
-    font-size: 30px;
+#tips {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
 }
-#navbar ul li{
-    color: black;
-    list-style:none;
-    font-size: 1.0rem; 
+.tip1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-#navbar ul li a{
-    display: block;
-    padding:3px 22px;
-    border-radius: 20px;
-    text-decoration: none;
+.tip1 h1{
+  font-size: 20px;
 }
-#text1{
-    font-size: 50px;
-    text-align: unset;
-    font-family: ;
+.tip2 h1{
+  font-size: 20px;
+  text-align: right;
 }
-#text2{
-    font-size: 100px;
-    text-align: unset;
-    font-family: ;
+#sym{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(247, 152, 203);
+}
+.symp{
+  padding: 20px;
+}
+.table,th,td{
+  border: 2px solid #6e0a39;
+  margin-inline: auto;
+  font-size: 20px;
+  width: 50%;
+}
+.table td,th{
+  background-color: white ;
 }
