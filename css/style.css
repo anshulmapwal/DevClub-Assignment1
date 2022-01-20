@@ -91,18 +91,19 @@ a {
 .faq{
   text-align: center;
   font-size: 35px;
+  padding: auto;
 }
 .faque{
-  display: flex
+  display: flex;
   flex-direction: column;
-  padding: 80px;
-  border:2px solid rgb(0, 0, 0);
+  padding: 5vh 1vw;
+  border: 2px solid rgb(0, 0, 0);
+  align-items: center;
 }
 .que{
   text-align: center;
-  padding: 2px;
   width: 80vw;
-  margin: 2px;
+  margin: 3px;
   background-color: #ffffff;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
